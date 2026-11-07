@@ -1,0 +1,46 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Test the validator
+        run: python -m unittest discover -s tests -v
+
+      - name: Validate the sample catalogue
+        run: python tools/build.py --check
+
+      - name: Build
+        run: python tools/build.py
+
+      - name: Check the page has no inline script
+        run: |
+          if grep -qi "<script>" site/index.html; then
+            echo "inline script found in index.html — CSP forbids it"; exit 1
+          fi
+          echo "no inline script"
+
+      - name: Upload the built site
+        uses: actions/upload-artifact@v4
+        with:
+          name: fresnel-site
+          path: site/
+          retention-days: 7
