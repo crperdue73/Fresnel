@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+# derived by tools/probe.py, and it names hosts on your network
+site/status.json
+preview/

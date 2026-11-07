@@ -1,0 +1,37 @@
+name: fresnel
+
+services:
+  fresnel:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: fresnel:local
+    container_name: fresnel
+    ports:
+      - "${FRESNEL_PORT:-8088}:8080"
+
+    # The live catalogue. `make build` on the host rewrites site/services.json;
+    # the page picks it up on reload. No image rebuild, no restart.
+    volumes:
+      - ./site:/usr/share/nginx/html:ro
+
+    restart: unless-stopped
+
+    # nothing writes to the container's filesystem, ever
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /var/cache/nginx
+      - /var/run
+
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:8080/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s

@@ -1,0 +1,322 @@
+{
+  "title": "Fresnel",
+  "subtitle": "sample catalogue",
+  "accent": "#f2a65a",
+  "theme": "dark",
+  "search_provider": "duckduckgo",
+  "pinned": [
+    {
+      "name": "Gmail",
+      "url": "https://mail.google.com",
+      "description": "Mail, and the inbox you keep meaning to clear",
+      "icon": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
+      "icon_host": "mail.google.com",
+      "monogram": "G",
+      "hue": 70,
+      "status": null,
+      "tags": [
+        "mail",
+        "google"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "description": "Repos, issues, pull requests",
+      "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+      "icon_host": null,
+      "monogram": "G",
+      "hue": 339,
+      "status": null,
+      "tags": [
+        "code",
+        "git"
+      ]
+    },
+    {
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org",
+      "description": "Start here, end somewhere else entirely",
+      "icon": "https://icons.duckduckgo.com/ip3/en.wikipedia.org.ico",
+      "icon_host": null,
+      "monogram": "W",
+      "hue": 199,
+      "status": null,
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "name": "Weather",
+      "url": "https://weather.gov",
+      "description": "Forecast with no advertising",
+      "icon": "https://icons.duckduckgo.com/ip3/weather.gov.ico",
+      "icon_host": null,
+      "monogram": "W",
+      "hue": 60,
+      "status": null,
+      "tags": [
+        "weather"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Everyday",
+      "accent": "#f2a65a",
+      "services": [
+        {
+          "name": "Gmail",
+          "url": "https://mail.google.com",
+          "description": "Mail, and the inbox you keep meaning to clear",
+          "icon": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
+          "icon_host": "mail.google.com",
+          "monogram": "G",
+          "hue": 70,
+          "status": null,
+          "tags": [
+            "mail",
+            "google"
+          ]
+        },
+        {
+          "name": "Calendar",
+          "url": "https://calendar.google.com",
+          "description": "Where the week actually lives",
+          "icon": "https://www.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_31_2x.png",
+          "icon_host": "calendar.google.com",
+          "monogram": "C",
+          "hue": 254,
+          "status": null,
+          "tags": [
+            "calendar",
+            "google"
+          ]
+        },
+        {
+          "name": "Drive",
+          "url": "https://drive.google.com",
+          "description": "Documents, sheets, the usual sprawl",
+          "icon": "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q44_32dp.png",
+          "icon_host": "drive.google.com",
+          "monogram": "D",
+          "hue": 146,
+          "status": null,
+          "tags": [
+            "files",
+            "google"
+          ]
+        },
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com",
+          "description": "Two hours gone before you noticed",
+          "icon": "https://icons.duckduckgo.com/ip3/youtube.com.ico",
+          "icon_host": null,
+          "monogram": "Y",
+          "hue": 147,
+          "status": null,
+          "tags": [
+            "video"
+          ]
+        },
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com",
+          "description": "The front page of the argument",
+          "icon": "https://icons.duckduckgo.com/ip3/reddit.com.ico",
+          "icon_host": null,
+          "monogram": "R",
+          "hue": 334,
+          "status": null,
+          "tags": [
+            "news",
+            "community"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reference",
+      "accent": "#5aa7f2",
+      "services": [
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org",
+          "description": "Start here, end somewhere else entirely",
+          "icon": "https://icons.duckduckgo.com/ip3/en.wikipedia.org.ico",
+          "icon_host": null,
+          "monogram": "W",
+          "hue": 199,
+          "status": null,
+          "tags": [
+            "reference"
+          ]
+        },
+        {
+          "name": "MDN",
+          "url": "https://developer.mozilla.org",
+          "description": "The documentation that is actually right",
+          "icon": "https://icons.duckduckgo.com/ip3/developer.mozilla.org.ico",
+          "icon_host": null,
+          "monogram": "M",
+          "hue": 223,
+          "status": null,
+          "tags": [
+            "docs",
+            "web"
+          ]
+        },
+        {
+          "name": "Stack Overflow",
+          "url": "https://stackoverflow.com",
+          "description": "Somebody had your problem in 2013",
+          "icon": "https://icons.duckduckgo.com/ip3/stackoverflow.com.ico",
+          "icon_host": null,
+          "monogram": "S",
+          "hue": 66,
+          "status": null,
+          "tags": [
+            "code",
+            "qa"
+          ]
+        },
+        {
+          "name": "Internet Archive",
+          "url": "https://archive.org",
+          "description": "The web, remembered",
+          "icon": "https://icons.duckduckgo.com/ip3/archive.org.ico",
+          "icon_host": null,
+          "monogram": "I",
+          "hue": 139,
+          "status": null,
+          "tags": [
+            "archive"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Work",
+      "accent": "#a78bfa",
+      "services": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com",
+          "description": "Repos, issues, pull requests",
+          "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+          "icon_host": null,
+          "monogram": "G",
+          "hue": 339,
+          "status": null,
+          "tags": [
+            "code",
+            "git"
+          ]
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com",
+          "description": "Where everyone is an expert by lunchtime",
+          "icon": "https://icons.duckduckgo.com/ip3/news.ycombinator.com.ico",
+          "icon_host": null,
+          "monogram": "H",
+          "hue": 165,
+          "status": null,
+          "tags": [
+            "news",
+            "tech"
+          ]
+        },
+        {
+          "name": "Docker Hub",
+          "url": "https://hub.docker.com",
+          "description": "Images, tags, and one more pull",
+          "icon": "https://icons.duckduckgo.com/ip3/hub.docker.com.ico",
+          "icon_host": null,
+          "monogram": "D",
+          "hue": 229,
+          "status": "beta",
+          "tags": [
+            "docker",
+            "infra"
+          ]
+        },
+        {
+          "name": "Let's Encrypt",
+          "url": "https://letsencrypt.org",
+          "description": "The reason the padlock is free",
+          "icon": "https://icons.duckduckgo.com/ip3/letsencrypt.org.ico",
+          "icon_host": null,
+          "monogram": "L",
+          "hue": 20,
+          "status": null,
+          "tags": [
+            "tls",
+            "infra"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Out there",
+      "accent": "#7fc9a0",
+      "services": [
+        {
+          "name": "Weather",
+          "url": "https://weather.gov",
+          "description": "Forecast with no advertising",
+          "icon": "https://icons.duckduckgo.com/ip3/weather.gov.ico",
+          "icon_host": null,
+          "monogram": "W",
+          "hue": 60,
+          "status": null,
+          "tags": [
+            "weather"
+          ]
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news",
+          "description": "News, spelled correctly",
+          "icon": "https://icons.duckduckgo.com/ip3/bbc.com.ico",
+          "icon_host": null,
+          "monogram": "B",
+          "hue": 19,
+          "status": null,
+          "tags": [
+            "news"
+          ]
+        },
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org",
+          "description": "Maps you are allowed to fix",
+          "icon": "https://icons.duckduckgo.com/ip3/openstreetmap.org.ico",
+          "icon_host": null,
+          "monogram": "O",
+          "hue": 239,
+          "status": null,
+          "tags": [
+            "maps"
+          ]
+        },
+        {
+          "name": "Down Detector",
+          "url": "https://downdetector.com",
+          "description": "Is it them, or is it you",
+          "icon": "https://icons.duckduckgo.com/ip3/downdetector.com.ico",
+          "icon_host": null,
+          "monogram": "D",
+          "hue": 276,
+          "status": "new",
+          "tags": [
+            "status"
+          ]
+        }
+      ]
+    }
+  ],
+  "count": 17,
+  "generated_at": "2026-11-07T01:42:26+00:00"
+}
